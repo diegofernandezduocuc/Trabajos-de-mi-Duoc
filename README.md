@@ -1,2 +1,2 @@
-TRABAJO s5 Fundamentos de la programacion
+TRABAJO s6 Fundamentos de la programacion
 
