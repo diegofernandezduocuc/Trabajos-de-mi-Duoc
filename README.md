@@ -1,2 +1,2 @@
-TRABAJO Semana 6 Fundamentos de la programacion
+TRABAJO Semana 7 Fundamentos de la programacion
 
