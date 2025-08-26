@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D07686E-B92D-0580-C1DB-AADCC3A9C157" name="PASAJERO">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>D57E989F-A1CC-7FC9-9008-E7AC471A7D9C</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_documento" id="DE65543A-B483-D6D8-895B-BBDF1A839479">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>356CCF46-35D4-4248-B533-6DBAA6EDE7E9</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_completo" id="DB89BAA1-F9C4-041D-7DBD-C378CDB76C63">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>7ABE0B35-0730-A816-7DFD-A791003D376C</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="E976CD2F-0FE1-61D8-8109-37780CEF5DCB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>8D779BEB-BFB1-E996-033D-B48A06F53B98</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nacionalidad" id="0AD2D200-B348-F6BF-7C16-0E17C0C88F2C">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>7FB1E5C5-C0B8-8AC3-2CA1-715A65C85CDC</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_contacto" id="2E98DBDF-FD18-8D2D-53E5-074F10B6DE13">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>6343E329-4C28-F685-E472-1669B189B433</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="C70041DD-5FD7-F13F-293E-349F48501C50">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>35C4CFA1-D699-F87A-4173-DC43A94AC0AD</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A722724-EE5E-1430-C317-D6A32F21243B" name="PASAJERO_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>27CE4887-D748-779C-90C6-5177344F3280</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE65543A-B483-D6D8-895B-BBDF1A839479"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

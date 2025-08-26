@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29EE8F25-2940-6BAC-2B66-C1EE6201DC85" name="EMPLEADO">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:41:38 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rut_empleado" id="65D0C2F4-68E0-7A47-4E8A-41969C402285">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:41:42 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="6A6713B1-6C65-E991-2E13-61AF8BE0AE31">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:42:07 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="3382EFC3-0C02-9353-F00A-4D16EACDB42F">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:42:21 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="FA44860F-D081-0330-4B95-C3AD996480AB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:42:40 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_ingreso" id="AA3A23A0-F496-40CC-CB9E-A5E1E4AE9162">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:43:01 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="2F3F2482-719A-9739-C633-9E8B5AE0B152">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:43:17 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_movil" id="06E140EB-55AF-8454-1F9C-4434F139607E">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:43:57 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="F32B2D42-F061-4778-0DB6-38F476DC0024">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:44:16 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="1E38FCEF-6BFE-4DA9-BE80-2D1658461832">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:44:38 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F5B7113-2D78-0C48-AC86-B11B6B6E1761" name="EMPLEADO PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:42:05 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65D0C2F4-68E0-7A47-4E8A-41969C402285</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10860CB9-B3FD-8666-F2C4-A2044CBE70AE" name="ADMINISTRATIVO">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>917707E9-DEED-FD86-B1B9-4294F926A544</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rut_administrativo" id="00B345A4-A018-BA37-8194-EFB21FE23892">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>EF1CD028-FFF0-ACF1-1025-8FCD86BF446D</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horas_extras" id="E61EF9CA-9E52-F7E0-C769-BA335D17051D">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>D1138BAC-E88E-ADE1-CFEC-5D1E84271839</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLEADO_id_rut_empleado" id="CD52EC01-0B39-7608-E145-6CE901A98D16">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>3E6FFAC3-EAF0-D90C-099F-DCE9E00A8712</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC831E3B-18A4-3326-66FA-3B73DF15DA1F" referredColumn="EC6FA8A3-2CC8-F466-1051-CD23F680D3DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F48174BB-1DE1-7252-9CAF-DE67EA5B76C4" name="ADMINISTRATIVO_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>464A4150-6A00-3DEB-20E2-AF2C20EDA0EC</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B345A4-A018-BA37-8194-EFB21FE23892"/>
+<colUsage columnID="CD52EC01-0B39-7608-E145-6CE901A98D16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AAE8AE8-401C-C076-F0BD-134A320044AD" name="ADMINISTRATIVO_EMPLEADO_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:30 UTC</createdTime>
+<generatorID>8B45A939-DB1D-45C4-1342-CFE347083FA5</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD52EC01-0B39-7608-E145-6CE901A98D16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D57E989F-A1CC-7FC9-9008-E7AC471A7D9C" name="PASAJERO">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:36:21 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_documento" id="356CCF46-35D4-4248-B533-6DBAA6EDE7E9">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:36:29 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="7ABE0B35-0730-A816-7DFD-A791003D376C">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:36:53 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="8D779BEB-BFB1-E996-033D-B48A06F53B98">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:37:07 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="7FB1E5C5-C0B8-8AC3-2CA1-715A65C85CDC">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:37:17 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_contacto" id="6343E329-4C28-F685-E472-1669B189B433">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:37:34 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="35C4CFA1-D699-F87A-4173-DC43A94AC0AD">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:37:54 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27CE4887-D748-779C-90C6-5177344F3280" name="PASAJERO PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:36:50 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>356CCF46-35D4-4248-B533-6DBAA6EDE7E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REL_VUELO_RESERVA" directorySegmentName="seg_0" id="37DE8168-2A1E-C233-F426-3C6F19969BA4">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:25:08 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>DC11FBEC-815F-33C2-CD01-25F345E40044</sourcePk>
+<targetPk>8221BDDC-CC5B-D92D-4A74-356D8E6069CC</targetPk>
+<identifying>false</identifying>
+<nameOnSource>tiene reservas</nameOnSource>
+<nameOnTarget>pertenece a vuelo</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CAB0CA8C-BB3F-3392-647A-F432F0158890</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8BFBB56-A895-DCB7-6C08-24C6B7914E15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

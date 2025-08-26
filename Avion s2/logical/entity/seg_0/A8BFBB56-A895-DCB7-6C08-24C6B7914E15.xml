@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A8BFBB56-A895-DCB7-6C08-24C6B7914E15" name="RESERVA">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:38:18 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_numero_reserva" id="76E8E506-B798-A81B-32D2-5E031FBB7C0A">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:38:25 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="EA964A0E-9796-DF53-B28E-F04CBFEC3069">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:38:59 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="C100BB96-9953-21AB-0048-7941233654F5">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:39:16 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="AF596731-ED2A-A17B-8A5B-FC41002D0F71">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:39:35 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PASAJERO_id_documento" id="A2C0FEDE-6712-4CEC-E400-F6DB113335BD">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:40:17 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VUELO_numero_vuelo" id="B6844E02-7511-3D1A-9628-7942827F2A84">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:40:46 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ADMINISTRATIVO_rut" id="7CD58920-5B5B-E67E-26D3-7DB3CB011290">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:40:54 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_numero_vuelo" id="1764CCFA-F649-ADE8-3CC4-4AE4D577A2BB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:25:08 UTC</createdTime>
+<generatorID>37DE8168-2A1E-C233-F426-3C6F19969BA4</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<referedAttribute>5DBEE661-2685-1BB2-5167-E56CD7610C44</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_documento" id="BA8585D1-DC37-6118-0EB5-9780A9AB2C44">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:40:03 UTC</createdTime>
+<generatorID>BC079FF6-6672-4A4F-53DD-715709B26E71</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<referedAttribute>356CCF46-35D4-4248-B533-6DBAA6EDE7E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rut_administrativo" id="D1EFABF7-BE48-74EA-AB93-60E7760E9B36">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:44:38 UTC</createdTime>
+<generatorID>2A3C8D2A-D208-C1CD-BE4B-9BF8D4E4B084</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<referedAttribute>EF1CD028-FFF0-ACF1-1025-8FCD86BF446D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rut_administrativo1" id="9F3FC942-5918-FB64-3291-0B6531996660">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:45:40 UTC</createdTime>
+<generatorID>9B5CB821-808F-DB81-F3DC-02DAF7402E86</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>EF1CD028-FFF0-ACF1-1025-8FCD86BF446D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rut_empleado" id="FBD71019-AA4C-2F12-6736-DC0AEE4CA13C">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:13 UTC</createdTime>
+<generatorID>2A3C8D2A-D208-C1CD-BE4B-9BF8D4E4B084</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<referedAttribute>3E6FFAC3-EAF0-D90C-099F-DCE9E00A8712</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_rut_empleado1" id="3DEAF46D-15B3-9309-CD08-636AE7AD7156">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 03:50:13 UTC</createdTime>
+<generatorID>9B5CB821-808F-DB81-F3DC-02DAF7402E86</generatorID>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3E6FFAC3-EAF0-D90C-099F-DCE9E00A8712</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8221BDDC-CC5B-D92D-4A74-356D8E6069CC" name="RESERVA PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-08-26 02:38:58 UTC</createdTime>
+<ownerDesignName>Avion s2</ownerDesignName>
+<engineerTo>
+<item key="D419B90D-0694-ECE5-E4EA-3392FDBA9809" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>76E8E506-B798-A81B-32D2-5E031FBB7C0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
