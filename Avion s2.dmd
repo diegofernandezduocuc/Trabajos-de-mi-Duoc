@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Avion s2" id="03F387DB-BDBF-E71C-7FC0-6BD0EE6456FA" version="3.5">
-<createdBy>Dxtro</createdBy>
-<createdTime>2025-08-26 02:17:37 UTC</createdTime>
-<ownerDesignName>Avion s2</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>03F387DB-BDBF-E71C-7FC0-6BD0EE6456FA</designId>
-</OSDM_Design>
