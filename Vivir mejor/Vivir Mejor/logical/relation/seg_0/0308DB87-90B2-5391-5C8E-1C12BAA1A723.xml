@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_RESIDENCIA_PERSONAL" directorySegmentName="seg_0" id="0308DB87-90B2-5391-5C8E-1C12BAA1A723">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:05:07 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>01299AF4-59D1-55D8-E27F-CCACD0EBB864</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>emplea personal</nameOnSource>
+<nameOnTarget>asignado a residencia</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65E02BDE-7982-FB8B-D30D-8B7B124E256A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>268FD0BF-3097-1089-1780-4914AD6F89F9</targetEntity>
+<transferable>true</transferable>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="103E65B4-6917-4015-EDDC-52867B76360A" mainViewID="E7EE34A0-77F2-2E69-D1D0-7F779968AE5A">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 01:18:28 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

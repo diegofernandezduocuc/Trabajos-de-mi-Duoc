@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65E02BDE-7982-FB8B-D30D-8B7B124E256A" name="RESIDENCIA">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 01:57:34 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_residencia" id="A4767D77-83DF-1533-1F27-C6FFA84D3BBC">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 01:59:12 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="7922921D-6715-93F5-79EF-025928E91EFB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 01:59:31 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="291A51B1-E111-5D79-A088-8F9A1B435139">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:00:03 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01299AF4-59D1-55D8-E27F-CCACD0EBB864" name="RESIDENCIA PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 01:59:25 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4767D77-83DF-1533-1F27-C6FFA84D3BBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

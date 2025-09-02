@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C56FA4A6-385B-CB7C-4239-370B97FD75BE" name="ANEXO">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>A7A769C8-C3F2-C3C3-6560-CE37A1F52F77</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_anexo" id="120BDDD5-3541-C98E-61C8-D7AA40980BF2">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>A475E111-F3CA-6D49-21D1-C972B14DBDBD</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="D5EF07E2-5244-D5FD-4D7B-03D1CC8C52EC">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>9B75481F-B098-C0E8-FDEE-85E9DACF9EA0</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="2B348469-BDE4-17B7-86C8-73D0CBF98C94">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>7AE3C09E-3E55-EE05-631B-132E76977D28</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="0FBAA370-A5B7-4CBE-6099-C48FB75F4475">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>BAF9039A-1CA9-0606-FCAC-3CD21581CCD0</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATO_id_contrato" id="F91F83C1-0A02-4F34-FDFD-C2E985FD1F64">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>B3273E8D-F395-52D7-1BCE-03DA1DDE4C1E</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99401A20-6A05-CCDC-9F0E-5B468681D79B" referredColumn="2CDD2758-19FC-F6E5-49AD-FA9666415498"/>
+</associations>
+</Column>
+<Column name="RESIDENTEv1_id_rut_residente" id="D8224752-F165-4E0C-520D-5FA8A8ED524E">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>5804CDC1-6D5C-628F-8187-707D10C0303E</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA80500C-3F9B-9C07-9D37-C705BCE09403" referredColumn="639B9148-F949-E89A-E805-24EBD29383D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0901840-3F8F-E94C-371B-108C91757E80" name="ANEXO_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>B3269240-68CC-198A-2172-F211D32A0392</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="120BDDD5-3541-C98E-61C8-D7AA40980BF2"/>
+<colUsage columnID="D8224752-F165-4E0C-520D-5FA8A8ED524E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC31FF1A-0E44-0335-9D11-36DCF7B5BF8F" name="ANEXO_CONTRATO_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>96B3EDE2-6C00-5F0D-640F-032F9E073A19</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F91F83C1-0A02-4F34-FDFD-C2E985FD1F64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA4B0239-A7A9-8B64-5DBE-0D5D0951F3E1" name="ANEXO_RESIDENTEv1_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>110B78F8-2BBC-1071-452B-B779E33D18DA</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8224752-F165-4E0C-520D-5FA8A8ED524E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

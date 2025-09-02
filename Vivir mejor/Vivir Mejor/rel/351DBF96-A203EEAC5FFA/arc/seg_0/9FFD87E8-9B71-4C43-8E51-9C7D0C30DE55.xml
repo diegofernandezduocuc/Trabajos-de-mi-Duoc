@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="9FFD87E8-9B71-4C43-8E51-9C7D0C30DE55" name="FKArc_1">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>4B876D1E-5C3D-2CD4-1C76-9FF2F2FCB6CA</table>
+<fkeys>
+<fkeyID>98B80EA4-A410-BAC9-7804-0C665BCF0B4D</fkeyID>
+<fkeyID>0940F845-8471-4391-A12E-4463D1395CF3</fkeyID>
+</fkeys>
+</FKArc>

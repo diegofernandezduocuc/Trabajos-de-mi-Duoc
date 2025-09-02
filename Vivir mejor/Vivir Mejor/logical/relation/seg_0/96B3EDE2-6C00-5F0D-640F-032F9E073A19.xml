@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CONTRATO_ANEXO" directorySegmentName="seg_0" id="96B3EDE2-6C00-5F0D-640F-032F9E073A19">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:59:39 UTC</createdTime>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<engineerTo>
+<item key="351DBF96-BDDA-0A92-2C0D-A203EEAC5FFA" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>9DF5F167-F419-2DC0-8D1B-F88504749FA0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene anexos</nameOnSource>
+<nameOnTarget>pertenece a contrato</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>504A858C-939D-C00A-568B-6999DCF20963</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A7A769C8-C3F2-C3C3-6560-CE37A1F52F77</targetEntity>
+<transferable>true</transferable>
+</Relation>

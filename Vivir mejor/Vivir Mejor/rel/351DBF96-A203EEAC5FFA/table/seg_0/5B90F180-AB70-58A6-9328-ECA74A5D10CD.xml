@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B90F180-AB70-58A6-9328-ECA74A5D10CD" name="RESIDENTE">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>B3102380-3E08-A3D4-A7C4-8DE32629D5D7</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_rut" id="3F6CD031-8B28-3452-9489-20D952100B5E">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>FB548789-8563-976F-D853-08A7E042E6F4</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="48810E8B-1526-7923-7C7E-8D23CEE0B91E">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>D8243958-40E1-68DE-8C15-049F90D88F82</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edad" id="4B43BA84-ABFE-BC4B-D9CE-646192226D1D">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>FE34BFFD-C127-A65E-90B7-1FDCE1672F54</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autonomia" id="67F38E89-4A6E-BF43-7864-06A0B011BE1F">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>C90A29C6-1C03-ED8C-F001-A2AF6E1400B0</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0AA4EA95-6FE2-3ED0-E962-CD6DBF5D3E1A" name="RESIDENTE_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>2826E528-53D5-C9EF-DB3B-FFE798F80A7E</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F6CD031-8B28-3452-9489-20D952100B5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

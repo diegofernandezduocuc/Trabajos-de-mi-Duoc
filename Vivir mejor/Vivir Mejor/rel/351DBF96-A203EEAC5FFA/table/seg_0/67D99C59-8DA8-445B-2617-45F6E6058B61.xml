@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67D99C59-8DA8-445B-2617-45F6E6058B61" name="CUIDADOR">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>826308EA-4917-8F79-1335-A7DC37A071DB</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tipo_cuidador" id="0A93CF9C-D987-D929-6508-2AF2B06A22FE">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 02:53:59 UTC</createdTime>
+<generatorID>506BBA2C-A76D-B45F-5FC0-EB0955333C11</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_rut_personal" id="DBB39DF2-79E8-EC08-172C-F13DA5CB37BB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>296545F7-4AB1-6FBB-C6A3-D76AD0245093</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98B80EA4-A410-BAC9-7804-0C665BCF0B4D" referredColumn="2FDFCB85-FE33-BC44-E819-96E95203D7AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B88D51-E1B9-3A0A-7A88-233245D8EFFF" name="CUIDADOR_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>50C0FDC7-800D-92BF-A502-137A4449636F</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB39DF2-79E8-EC08-172C-F13DA5CB37BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FB73EC4-FA3D-5C6B-B0A8-37EF9BB1B362" name="CUIDADOR_PERSONAL_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-02 03:38:10 UTC</createdTime>
+<generatorID>5F44AE00-864D-A8E6-EEBF-960B4FE74F7D</generatorID>
+<ownerDesignName>Vivir Mejor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB39DF2-79E8-EC08-172C-F13DA5CB37BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
