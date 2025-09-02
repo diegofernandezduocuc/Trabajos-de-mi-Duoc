@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F31D2C27-7DE2-E611-88B7-B93CB903D3EB" mainViewID="811C3ECA-7ED3-ACCA-C58A-89C51B6063BD">
-<createdBy>Dxtro</createdBy>
-<createdTime>2025-08-26 02:17:37 UTC</createdTime>
-<ownerDesignName>Avion s2</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
