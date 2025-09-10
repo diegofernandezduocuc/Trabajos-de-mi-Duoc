@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93A3186A-B718-027E-D8DC-881206B23ABB" name="POSTULACION">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>9CE764F5-361C-468C-EE18-29CC7DF29D63</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Postulacion" id="222BEC14-BA10-4704-2E8E-A672257C4928">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>6BB1EC75-D44B-53B0-B666-4EC3F42B31D4</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_postulacion" id="F3885908-5CD1-0FA3-666B-35D6A9151E32">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>93A66163-2D64-6490-F53A-DA648C796B02</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_postulacion" id="AA01B783-8BF5-87D4-4B75-2D4940D6AAF7">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>056E7EE9-A1EB-38A0-5E8F-3A4A22DE6B64</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<constraintName>CH_INH_POSTULACION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="C" description="entity POSTULACION_CHILE"/>
+<valueDef value="E" description="entity POSTULACION_EXTRANJERO"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="POSTULANTE_id_Postulante" id="3F1409CA-9748-FD05-072E-AF0EA0D98ACB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:35:11 UTC</createdTime>
+<generatorID>23A37BEB-EDDD-B75D-EC51-26E63F71427D</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9FD7BA-0443-95F4-E195-8C078FA71202" referredColumn="F6719C7D-702D-333F-872C-B3A568F3888B"/>
+</associations>
+</Column>
+<Column name="EMPRESA_id_Empresa" id="DAC9D74C-B91B-0B19-7E46-46DA122AB48B">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:35:11 UTC</createdTime>
+<generatorID>7C737B69-B8FD-4EB5-A0EE-2C8D38912846</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3754EB65-4E9F-A6D5-1DA5-72B168FBA703" referredColumn="C929CB61-4AC0-C812-4757-7F580057280B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD978702-7828-64DA-577C-E8983C73CFA8" name="POSTULACION_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>C585D19F-5AA4-5F3D-9B8F-FEC6F130E6FB</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="222BEC14-BA10-4704-2E8E-A672257C4928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEB6F1D7-AA95-B345-2C2E-43D3D5B0A062" name="POSTULACION_POSTULANTE_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:35:11 UTC</createdTime>
+<generatorID>92EA0399-86A9-4C93-1D1A-AA405F312776</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F1409CA-9748-FD05-072E-AF0EA0D98ACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54A1B359-A72A-0403-FF46-A9A4E87A203C" name="POSTULACION_EMPRESA_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:35:11 UTC</createdTime>
+<generatorID>41345E4B-048C-4436-FD35-3F138C860FE7</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAC9D74C-B91B-0B19-7E46-46DA122AB48B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_POSTULACION_TIPO" directorySegmentName="seg_0" id="6ADAF65C-A8AE-2F31-8031-82503CE40824">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:35:58 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<rule><![CDATA[CHECK (tipo_postulacion IN ('C','E'))]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

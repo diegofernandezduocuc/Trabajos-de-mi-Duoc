@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="8142D4BC-BF36-FACD-0EDA-6E77CEB16953">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:00:46 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<sourcePk>A8843A40-86CB-5E54-764C-057AEBA1FD6A</sourcePk>
+<targetPk>FE528638-28F3-4BCD-9322-B7959AB4DC6D</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DF6CDA71-4C16-7537-3F8B-80D418C78B8A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>15FAD67C-7DBC-82E5-6DDA-8D8386B06411</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

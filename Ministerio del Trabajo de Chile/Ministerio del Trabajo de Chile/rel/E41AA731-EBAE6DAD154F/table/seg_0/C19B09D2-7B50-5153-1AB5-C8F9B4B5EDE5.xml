@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C19B09D2-7B50-5153-1AB5-C8F9B4B5EDE5" name="POSTULACION_EXTRANJERO">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>97588AC1-EE8C-1F7A-AF6E-D85F049ADE2E</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Postulacion" id="DFB90AA1-81E1-6CA5-4A00-3B4F1EFBAF24">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>6BB1EC75-D44B-53B0-B666-4EC3F42B31D4</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="633E8C05-B62D-96B4-4612-ED0CFF53EA90" referredColumn="222BEC14-BA10-4704-2E8E-A672257C4928"/>
+</associations>
+</Column>
+<Column name="nivel_idioma" id="0700171D-8365-D37C-A462-A2CF53369C65">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>D968C440-5D99-A3CF-EFC6-69330B190DD2</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_visa" id="B21C6B56-3CDB-A15F-8E1D-FA23F146021F">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>95A1063D-5933-9CD2-440E-1FB87C256216</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_visa_trabajo" id="925E9103-649F-0D6D-F7C9-F9B97268B003">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>F1DC0057-B9A3-CF68-D722-3F09FB6A485C</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4261859-7CA8-5037-2730-CC0C586D9AA2" name="POSTULACION_EXTRANJERO_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>C585D19F-5AA4-5F3D-9B8F-FEC6F130E6FB</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFB90AA1-81E1-6CA5-4A00-3B4F1EFBAF24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DECA2D0-43B6-F6C4-6EFE-3A9C273BC0F0" name="POSTULACION_EXTRANJERO_POSTULACION_FK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>1C4013D2-A9EC-75E0-FCBD-580BA6A561AB</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFB90AA1-81E1-6CA5-4A00-3B4F1EFBAF24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

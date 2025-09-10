@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1A84B71-55C7-80C8-0B23-2EA1E623F4E2" name="PAIS">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:26:25 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Pais" id="6EC460CF-55B7-2068-AA10-0F6FF58B798A">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:26:37 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="3232A5F0-A3CB-0FCA-CF04-7530B5728458">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:26:49 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8666F764-4AEE-CFCA-6A26-44430A7A884D" name="PAIS PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:26:47 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>6EC460CF-55B7-2068-AA10-0F6FF58B798A</newElementsIDs>
+<usedAttributes>
+<attributeRef>6EC460CF-55B7-2068-AA10-0F6FF58B798A</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C02D37C0-3411-85E2-9627-9EC312C33CB9" name="UQ_PAIS_NOMBRE">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:46:30 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="false"/>
+</engineerTo>
+<newElementsIDs>3232A5F0-A3CB-0FCA-CF04-7530B5728458</newElementsIDs>
+<usedAttributes>
+<attributeRef>3232A5F0-A3CB-0FCA-CF04-7530B5728458</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

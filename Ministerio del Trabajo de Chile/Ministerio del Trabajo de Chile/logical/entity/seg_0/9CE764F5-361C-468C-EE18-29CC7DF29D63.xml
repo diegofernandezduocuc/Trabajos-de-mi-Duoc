@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CE764F5-361C-468C-EE18-29CC7DF29D63" name="POSTULACION">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:43:34 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>056E7EE9-A1EB-38A0-5E8F-3A4A22DE6B64</discriminatorAttributeID>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Postulacion" id="6BB1EC75-D44B-53B0-B666-4EC3F42B31D4">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:44:16 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_postulacion" id="93A66163-2D64-6490-F53A-DA648C796B02">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:44:31 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_postulacion" id="056E7EE9-A1EB-38A0-5E8F-3A4A22DE6B64">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:44:44 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Postulante" id="23A37BEB-EDDD-B75D-EC51-26E63F71427D">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:27:25 UTC</createdTime>
+<generatorID>92EA0399-86A9-4C93-1D1A-AA405F312776</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<referedAttribute>5B89C959-8D6D-6BDB-3E98-46768E2D39DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_Empresa" id="7C737B69-B8FD-4EB5-A0EE-2C8D38912846">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 02:29:28 UTC</createdTime>
+<generatorID>41345E4B-048C-4436-FD35-3F138C860FE7</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<referedAttribute>E0B2A3E1-1747-A757-1D13-8D08D2EFC364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C585D19F-5AA4-5F3D-9B8F-FEC6F130E6FB" name="POSTULACION PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:44:30 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BB1EC75-D44B-53B0-B666-4EC3F42B31D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

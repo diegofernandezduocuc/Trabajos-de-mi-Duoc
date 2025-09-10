@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_1" directorySegmentName="seg_0" id="B164376B-AF60-D877-DEAC-0EA8E5B738EB">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 00:49:42 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<engineerTo>
+<item key="E41AA731-8DBF-7226-2916-EBAE6DAD154F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>9CE764F5-361C-468C-EE18-29CC7DF29D63</sourceEntity>
+<targetEntity>F8BFE7F5-107C-BD53-4F92-F7C643E83AE7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

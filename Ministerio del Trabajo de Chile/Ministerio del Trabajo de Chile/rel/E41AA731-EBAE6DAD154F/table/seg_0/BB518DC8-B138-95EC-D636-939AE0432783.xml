@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB518DC8-B138-95EC-D636-939AE0432783" name="PROFESION">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>8FDB020E-0B84-6310-4D19-FC3C9B29D184</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Profesion" id="85921234-BA9D-A611-ADCF-1CDBEE21E241">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>2102786A-6412-AB33-1D13-57DFDC5D2A6E</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="ED0C1F1D-4DC0-6ACF-DAC1-B4A3DFA5DBAE">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>3A39FD7B-B49D-4660-88FD-99FDB58A2A7A</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB18A95F-ECAF-EB59-CC72-14D3C33B172C" name="PROFESION_PK">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:07:53 UTC</createdTime>
+<generatorID>81AC4765-2DA0-59BA-4D2D-43ADFC4A8BE8</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85921234-BA9D-A611-ADCF-1CDBEE21E241"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="567BDC80-8DE0-FE91-38AE-CAFBCC3A33F3" name="PROFESION_nombre_UN">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-10 01:26:07 UTC</createdTime>
+<generatorID>32C7D7F8-8CFC-9C16-9C17-87A3F1AC30FD</generatorID>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0C1F1D-4DC0-6ACF-DAC1-B4A3DFA5DBAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

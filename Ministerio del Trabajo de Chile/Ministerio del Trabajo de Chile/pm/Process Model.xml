@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="7F72E11E-DD40-5C0D-0537-DEF762DA78D4">
+<createdBy>Dxtro</createdBy>
+<createdTime>2025-09-09 23:39:41 UTC</createdTime>
+<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
