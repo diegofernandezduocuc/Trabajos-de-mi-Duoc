@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0D755A68-74E9-D1D3-6895-66790F601487" mainViewID="4252C161-1EAA-1677-9A78-6CC5A6120C51">
-<createdBy>Dxtro</createdBy>
-<createdTime>2025-09-09 23:39:41 UTC</createdTime>
-<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

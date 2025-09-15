@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="46A55ADE-08C3-6DBD-ABD4-118743C75DBC">
-<createdBy>Dxtro</createdBy>
-<createdTime>2025-09-09 23:39:41 UTC</createdTime>
-<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

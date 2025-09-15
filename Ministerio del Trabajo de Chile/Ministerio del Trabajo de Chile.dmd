@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Ministerio del Trabajo de Chile" id="1A631137-2F0F-1E39-AF3B-F6CC3EDBFAD0" version="3.5">
-<createdBy>Dxtro</createdBy>
-<createdTime>2025-09-09 23:39:41 UTC</createdTime>
-<ownerDesignName>Ministerio del Trabajo de Chile</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>1A631137-2F0F-1E39-AF3B-F6CC3EDBFAD0</designId>
-</OSDM_Design>
